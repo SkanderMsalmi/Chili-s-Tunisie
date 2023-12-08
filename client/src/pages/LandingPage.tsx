@@ -1,8 +1,18 @@
-import React from 'react'
+
+import HeroBlock from '../components/HeroBlock'
+import MenuPage from './MenuPage'
+// import Menu from '../components/Menu'
+import ContactUs from '../components/ContactUs'
 
 function LandingPage() {
+ 
     return (
-        <div>LandingPage</div>
+        <div>
+            <HeroBlock />
+            <MenuPage title={"Nos Menu"} />
+
+            <ContactUs />
+        </div>
     )
 }
 
